@@ -1,0 +1,59 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual env
+venv/
+env/
+ENV/
+
+# System / cache folders
+.cache/
+.tmp/
+temp/
+tmp/
+
+# Whisper / Playwright / Browser caches
+ms-playwright/
+playwright/
+~/.cache/
+~/.config/
+*.webm
+*.wav
+*.mp3
+
+# Audio / video files
+audio/
+videos/
+*.ogg
+*.mp4
+
+# Large data files
+*.csv
+*.tsv
+*.parquet
+*.xlsx
+*.pdf
+
+# Selenium / Chrome
+chromedriver
+chromedriver.exe
+chrome/
+chromium/
+
+# Logs
+logs/
+*.log
+
+# Test outputs
+test_output/
+test_results/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
